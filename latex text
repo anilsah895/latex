@@ -44,3 +44,21 @@ Table 1: Your first table.\\
 \end{center}
 \end{document}
 
+5.
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{multicol}
+\begin{document}
+\begin{center}
+\begin{tabular}{c|c|c}
+\textbf{Value 1} & \textbf{value 2} & \textbf{value 3} \\ 
+$\alpha$ & $\beta$ & $\gamma$ \\
+\hline 
+\multicolumn{2}{c|}{\multirow{2}{}{1234}} & a \\ 
+\multicolumn{2}{c|}{} & b \\
+\hline
+3 & 23.11 & c  \\
+4 & 25.11 & d  
+\end{tabular}
+\end{center}
+\end{document}
