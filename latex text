@@ -1,3 +1,4 @@
+1.
 \documentclass{article}
 \begin{document}
 $$ x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
@@ -8,7 +9,7 @@ $$ x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 This formula $f(x) = x^2$ is an example.
 \end{document}
 
-
+2.
 \documentclass{article}
 \begin{document}
 \begin{center}
@@ -23,3 +24,22 @@ Table 1: Your first table.\\
 \end{tabular}
 \end{center}
 \end{document}
+
+3.
+\documentclass{article}
+\begin{document}
+\begin{center}
+Table 1: Your first table.\\
+\begin{tabular}{ c | c | c } 
+\textbf{Value 1} & \textbf{value 2} & \textbf{value 3}\\ 
+\alpha  & \beta & \gamma  \\
+\hline 
+\multicolumn{2}{c|} {12} &  a \\  
+\hline
+2 & 10.10 & b  \\
+3 & 23.11 & c  \\
+4 & 25.11 & d  
+\end{tabular}
+\end{center}
+\end{document}
+
